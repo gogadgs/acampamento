@@ -1,0 +1,59 @@
+.fire__white .flame{
+    width:48px;
+    border-radius:48px;
+    background:#fef1d9;
+    box-shadow:0 0 80px 18px
+    rgba(254,241,217,0.4);
+}
+.fire__white .flame:nth-child(1){
+    left:150px;
+    width:32px;
+    height:100px;
+    bottom:110px;
+    transform:rotate(350deg);
+    animation:fire 2s 0.22s ease-in-out  infinite alternate ;
+    -webkit-animation:fire 2s 0.22s ease-in-out  infinite alternate ;
+}
+.fire__white .flame:nth-child(2){
+    left:130px;
+    width:2px;
+    height:100x;
+    bottom:100px;
+    animation: fire 2s 0.6s ease-in-out infinite alternate;
+    
+}
+.fire__white .flame:nth-child(3){
+    left:190px;
+    height:172px;
+    bottom:120px;
+    animation: fire 2s 0.4s ease-in-out infinite alternate;
+    
+}
+.fire__white .flame:nth-child(4){
+    left:240px;
+    height:220px;
+    bottom:120px;
+    animation: fire 2s 0.4s ease-in-out infinite alternate;
+    
+}
+.fire__white .flame:nth-child(5){
+    left:310px;
+    height:220px;
+    bottom:120px;
+    animation: fire 2s 0.4s ease-in-out infinite alternate;
+    
+}
+.fire__white .flame:nth-child(6){
+    left:380px;
+    height:170px;
+    bottom:120px;
+    animation: fire 2s 0.4s ease-in-out infinite alternate;
+   
+}
+.fire__white .flame:nth-child(7){
+    left:380px;
+    height:130px;
+    bottom:100px;
+    transform:rotate(30deg);
+    animation: fire 2s 0.4s ease-in-out infinite alternate;
+}

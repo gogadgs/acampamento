@@ -1,0 +1,59 @@
+
+/*posicionamento do fogo amarelo */
+.fire__yellow .flame{
+    width:48px;
+    border-radius:48px;        ;
+    background:#ffeb6e;
+    box-shadow: 0 80px 18px rgba(255,255,110,0.4)
+}
+.fire__yellow .flame:nth-child(1){
+    left:145px;
+    height:90px;
+    bottom:80px;
+    transform:rotate(-30deg);
+    animation:fire 2s 0.6s ease-in-out infinite alternate;
+   
+}
+.fire__yellow .flame:nth-child(2){
+    left:220px;
+    height:172px;
+    bottom:150px;
+    animation:fire 2s 0.4s ease-in-out infinite alternate;
+    
+}
+.fire__yellow .flame:nth-child(3){
+    left:282px;
+    height:240px;
+    bottom:150px;
+    animation:fire 2s 0.38s ease-out infinite alternate;
+   
+}
+.fire__yellow .flame:nth-child(4){
+    left:340px;
+    height:200px;
+    bottom:130px;
+    animation:fire 2s 0.22s ease-in-out infinite alternate;
+   
+}
+.fire__yellow .flame:nth-child(5){
+    left:160px;
+    height:140px;
+    bottom:100px;
+    animation:fire 2s 0.18s ease-in-out infinite alternate;
+    
+}
+.fire__yellow .flame:nth-child(6){
+    left:400px;
+    height:140px;
+    bottom:100px;
+    animation: fire 2s 0.22s ease-in-out  infinite alternate;
+    
+}
+.fire__yellow .flame:nth-child(7){
+    left:420px;
+    height:90px;
+    bottom:100px;
+    transform:rotate(30deg);
+    animation: fire 2s 0.6s ease-in-out infinite alternate;
+    
+}

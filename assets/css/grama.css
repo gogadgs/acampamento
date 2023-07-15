@@ -1,0 +1,10 @@
+footer{
+    position:relative;
+    height:10%;
+    bottom:-90%;
+    width:100%;
+}
+.grama{
+    background-color:green;
+    opacity:13%;
+}

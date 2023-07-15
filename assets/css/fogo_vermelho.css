@@ -1,0 +1,67 @@
+/*posição do elemto na pagina */
+
+.fire .flame{
+    position : absolute ; 
+    transform-origin:bottom center;
+    opacity:0.9;
+}
+
+
+/* sombra do elemento com estilização do fogo */
+.fire__red .flame{
+        width:48px;
+        border-radius:48px;
+        background:#ef2000;
+        box-shadow: 0 0 80px 18px rgba(226,15,0,0.4);
+}
+.fire__red .flame:nth-child(1){
+    left:160px;
+    height:195px;
+    bottom:100px;
+    animation:fire 2s 0.15s ease-in-out infinite alternate;
+    -webkit-animation:fire 2s 0.15s ease-in-out infinite alternate;
+}
+.fire__red .flame:nth-child(2){
+    left:220px;
+    height:260px;
+    bottom:130px;
+    animation:fire 2s 0.35s ease-in-out infinite alternate;
+    -webkit-animation:fire 2s 0.35s ease-in-out infinite alternate;
+}
+.fire__red .flame:nth-child(3){
+    left:280px;
+    height:360px;
+    bottom:130px;
+    animation:fire 2s 0.1s ease-in-out infinite alternate;
+    -webkit-animation:fire 2s 0.1s ease-in-out infinite alternate;
+}
+.fire__red .flame:nth-child(4){
+    left:340px;
+    height:260px;
+    bottom:130px;
+    animation:fire 2s 0.0s ease-in-out infinite alternate;
+    -webkit-animation:fire 2s 0.0s ease-in-out infinite alternate;
+}
+.fire__red .flame:nth-child(5){
+    left:400px;
+    height:200px;
+    bottom:100px;
+    animation:fire 2s 0.45s ease-in-out infinite alternate;
+    
+}
+.fire__red .flame:nth-child(6){
+    left:440px;
+    height:100px;
+    bottom: 130px;
+    transform:rotate(30deg);
+    animation:fire 2s 0.45s ease-in-out infinite alternate;
+    -webkit-animation:fire 2s 0.45s ease-in-out infinite alternate;
+}
+.fire__red .flame:nth-child(7){
+    left:140px;
+    height:120px;
+    bottom: 102px;
+    transform:rotate(-35deg);
+    animation:fire 2s 0.45s ease-in-out infinite alternate;
+    
+}

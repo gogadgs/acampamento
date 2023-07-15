@@ -1,0 +1,244 @@
+.stage{
+    width:100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.campfire{
+    position:relative;
+    width:600px;
+    height:600px;
+    transform-origin:center center;
+    transform:scale(0.75);
+    bottom:-5rem;
+    
+}
+/*estilização da lenha */
+.log{
+    position:absolute;
+    width:238px;
+    height:70px;
+    border-radius:32px;
+   background:#781e20;
+   overflow:hidden;
+   opacity:0.99;
+}
+/*pseudoelemento antes da classe em HTML */
+.log:before{
+    content:'';
+    display:block;
+    position:absolute;
+    top:50%;
+    width:8px;
+    height:8px;
+    border-radius:32px;
+    background:#b35050;
+    transform:translate(-50%,-50%);
+    z-index:3;
+    box-shadow:0 0 0 2.5px #781e20,0 0 0 10.5px #b35050,0 0 0 13px #781e20 , 0 0 0 21px #b35050, 0 0 0 23.5px #781e20, 0 0 0 31.5px #b35050;
+
+}
+/* limitação dos elemento criado como e fosse um canvas html*/
+/*para estlizar dentro do funil desenhado colocando risco para caracteriar lenha ou madeira*/
+.streak{
+    position:absolute;
+    height: 2px;
+    border-radius:20px;
+    background:#b35050;
+   
+}
+.streak:nth-child(1){
+    top:10px;
+    width:90px;
+
+}
+.streak:nth-child(2){
+    top:10px;
+    left:100px;
+    width:80px;
+}
+
+.streak:nth-child(3){
+    top:10px;
+    left:190px;
+    width:30px;
+}
+.streak:nth-child(4){
+    top:22px;
+    width:132px;
+}
+
+.streak:nth-child(5){
+    top:22px;
+    left:142px;
+    width:48px;
+}
+
+.streak:nth-child(6){
+    top:22px;
+    left:200px;
+    width:28px;
+}
+.streak:nth-child(7){
+    top:34px;
+    left:70px;
+    width:150px;
+}
+.streak:nth-child(8){
+    top:46px;
+    left:110px;
+    width:40px;
+}
+
+.streak:nth-child(9){
+    top:46px;
+    left:170px;
+    width:54px;
+}
+.streak:nth-child(10){
+    top:58px;
+    left:90px;
+    width:110px;
+}
+/* sombreamento na volta da madeira*/
+
+.log{
+    transform-origin:center center;
+    box-shadow: 0 0 2px 1px
+    #A52A2A;
+}
+.log:nth-child(1){
+  bottom:100px;
+  left:100px;
+  box-shadow: 0 0 2px 1px  #A52A2A;
+  transform:rotate(150deg) scaleX(0.75);
+  z-index:20;
+  -webkit-transform:rotate(150deg) scaleX(0.75);
+  -moz-transform:rotate(150deg) scaleX(0.75);
+  -ms-transform:rotate(150deg) scaleX(0.75);
+  -o-transform:rotate(150deg) scaleX(0.75);
+}
+.log:nth-child(2){
+  bottom:120px;
+  left:140px;
+  box-shadow: 0 0 2px 1px  #A52A2A;
+  transform:rotate(110deg) scaleX(0.75);
+  z-index:10;
+
+}
+.log:nth-child(3){
+  bottom:98px;
+  left:68px;
+  box-shadow: 0 0 2px 1px  #A52A2A;
+  transform:rotate(-10deg) scaleX(0.75);
+
+}
+.log:nth-child(4){
+  bottom:80px;
+  left:220px;
+  box-shadow: 0 0 2px 1px  #A52A2A;
+  transform:rotate(-120deg) scaleX(0.75);
+  z-index:26;
+  
+}
+.log:nth-child(5){
+  bottom:75px;
+  left:210px;
+  box-shadow: 0 0 2px 1px  #A52A2A;
+  transform:rotate(-30deg) scaleX(0.75);
+  z-index:25;
+ 
+}
+.log:nth-child(6){
+  bottom:92px;
+  left:280px;
+  box-shadow: 0 0 2px 1px  #A52A2A;
+  transform:rotate(35deg) scaleX(0.85);
+  z-index:30;
+
+}
+.log:nth-child(7){
+  bottom:70px;
+  left:300px;
+  transform:rotate(-30deg) scaleX(0.75);
+  z-index:20;
+  
+}
+/* lenha pequena*/
+.stick{
+    position:absolute;
+    width:60px;
+    height:20px;
+    border-radius:10px;
+    box-shadow:0 0 2px 1px rgba(0,0,0,0.1);
+    background:#781e20;
+}
+.stick:before{
+    content:'';
+    display:block;
+    position:absolute;
+    bottom:100%;
+    left:30px;
+    width:6px;
+    height:20px;
+    background:#781e20;
+    border-radius:10px;
+    transform:translateY(50%) rotate(32deg)   ;
+   
+}
+
+.stick:after{
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    width:20px;
+    height:20px;
+    background:#b35050;
+    border-radius:0px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+
+.stick{
+    transform-origin:center center;
+}
+.stick:nth-child(1){
+    left:158px;
+    bottom:164px;
+    transform:rotate(-152deg) scaleX(0.8)   ;
+    z-index:12;
+    -webkit-transform:rotate(-152deg) scaleX(0.8)   ;
+    -moz-transform:rotate(-152deg) scaleX(0.8)   ;
+    -ms-transform:rotate(-152deg) scaleX(0.8)   ;
+    -o-transform:rotate(-152deg) scaleX(0.8)   ;
+}
+.stick:nth-child(2){
+    left:180px;
+    bottom:30px;
+    transform:rotate(20deg) scaleX(0.9);
+    
+}
+.stick:nth-child(3){
+    left:370px;
+    bottom:150px;
+    transform:rotate(170deg) scaleX(0.9);
+    
+}
+.stick:nth-child(3):before{
+    display:none;
+}
+.stick:nth-child(4){
+  left:390px;
+  bottom:40px;
+  transform:rotate(36deg) scaleX(0.8);
+  -webkit-transform:rotate(36deg) scaleX(0.8);
+  -moz-transform:rotate(36deg) scaleX(0.8);
+  -ms-transform:rotate(36deg) scaleX(0.8);
+  -o-transform:rotate(36deg) scaleX(0.8);
+}
