@@ -4,7 +4,15 @@ footer{
     bottom:-90%;
     width:100%;
 }
-.grama{
-    background-color:green;
-    opacity:13%;
+footer div.grama{
+    
+        background-color: #92c54b; /* Cor verde da grama */
+        background-image:
+          repeating-linear-gradient(90deg, transparent, transparent 2px, #92c54b 3px, transparent 4px), /* Linhas verdes da grama */
+          linear-gradient(to bottom, #92c54b 50%, #00a551 50%); /* Sombreamento na parte inferior */
+      
+        background-size: 100% 6px, 100% 20px; /* Altura e espaçamento das linhas de grama */
+        background-position: top, bottom; /* Posição das linhas de grama e sombreamento */
+      
+      
 }
