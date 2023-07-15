@@ -1,18 +1,74 @@
 footer{
-    position:relative;
-    height:10%;
-    bottom:-90%;
-    width:100%;
+    position: relative;
+    height: 10%;
+    top: 80%;
+    width: 100%;
 }
 footer div.grama{
-    
-        background-color: #92c54b; /* Cor verde da grama */
-        background-image:
-          repeating-linear-gradient(90deg, transparent, transparent 2px, #92c54b 3px, transparent 4px), /* Linhas verdes da grama */
-          linear-gradient(to bottom, #92c54b 50%, #00a551 50%); /* Sombreamento na parte inferior */
+    background-color: #92c54b;
+    background-image: repeating-linear-gradient(90deg, transparent, transparent 2px, #92c54b 3px, transparent 4px), /* Linhas verdes da grama */ linear-gradient(to bottom, #92c54b 50%, #00a551 50%);
+    background-size: 100% 6px, 100% 20px;
+    background-position: top, bottom;
+    min-width: 40%;
+    right: 0;
+    position: absolute;
+    min-height: 190%;
+    opacity: 0.1;
       
-        background-size: 100% 6px, 100% 20px; /* Altura e espaçamento das linhas de grama */
-        background-position: top, bottom; /* Posição das linhas de grama e sombreamento */
+}
+footer div.grama2{
+    background-color: #92c54b;
+    background-image: repeating-linear-gradient(90deg, transparent, transparent 2px, #92c54b 3px, transparent 4px), /* Linhas verdes da grama */ linear-gradient(to bottom, #92c54b 50%, #00a551 50%);
+    background-size: 100% 6px, 100% 20px;
+    background-position: top, bottom;
+    min-width: 40%;
+    left: 0;
+    position: absolute;
+    min-height: 190%;
+    opacity: 0.1;
       
+}
+footer div.grama3{
+    background-color: #92c54b;
+    background-image: repeating-linear-gradient(90deg, transparent, transparent 2px, #92c54b 3px, transparent 4px), /* Linhas verdes da grama */ linear-gradient(to bottom, #92c54b 50%, #00a551 50%);
+    background-size: 100% 6px, 100% 20px;
+    background-position: top, bottom;
+    min-width:20%;
+    left: 40%;
+    top: 82%;
+    position: absolute;
+    min-height: 190%;
+    opacity: 0.1;
+}
       
+
+
+@media screen and (max-width:425px)  {
+    footer div.grama,div.grama2,div.grama3{
+        display: none;
+    }
+}
+@media screen and (min-width:425px) and (max-width:600px){
+    footer{
+        top: 79%;
+        
+    }
+
+    footer div.grama{
+        min-width: 15%;
+        min-height: 200%;
+       
+       
+     }
+     footer div.grama2{
+        min-width: 15%;
+        min-height: 200%;
+        
+     }
+
+     footer div.grama3{
+        min-width: 70%;
+        left: 15%;
+        top: 175%;
+     }
 }
