@@ -55,10 +55,7 @@ footer div.grama3{
     
 }
 @media screen and (min-width:325px) and (max-width:600px){
-    footer{
-        top: 79%;
-        
-    }
+   
     .campfire{
         transform: scale(0.25) !important;
         -webkit-transform: scale(0.25) !important;
@@ -84,9 +81,7 @@ footer div.grama3{
         top:34% !important;
         position:absolute !important;
 }
-    footer div.grama,div.grama2,div.grama3{
-       
-    }
+   
 }
 @media screen and (min-width:325px) and (max-width:600px){
     footer{
@@ -101,6 +96,19 @@ footer div.grama3{
         -o-transform: scale(0.25) !important;
         top:32% !important;
         position:absolute !important;
+}
+footer div.grama2{
+    background-color: #92c54b;
+    background-image: repeating-linear-gradient(90deg, transparent, transparent 2px, #92c54b 3px, transparent 4px), /* Linhas verdes da grama */ linear-gradient(to bottom, #92c54b 50%, #00a551 50%);
+    background-size: 100% 6px, 100% 20px;
+    background-position: top, bottom;
+    min-width: 40%;
+    left: 0;
+    position: absolute;
+    min-height: 228%;
+    top: 0;
+    opacity: 0.1;
+      
 }
 
    
