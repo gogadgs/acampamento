@@ -94,7 +94,7 @@ footer div.grama3{
         -moz-transform: scale(0.25) !important;
         -ms-transform: scale(0.25) !important;
         -o-transform: scale(0.25) !important;
-        top:32% !important;
+        top:38% !important;
         position:absolute !important;
 }
 footer div.grama2{
@@ -110,6 +110,12 @@ footer div.grama2{
     opacity: 0.1;
       
 }
+footer div.grama{
+    position: absolute !important;
+    min-height: 228% !important;
+    max-height: 228% !important;
+}
+
 
    
 }

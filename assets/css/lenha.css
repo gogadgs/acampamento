@@ -8,7 +8,7 @@
 .campfire{
     position: absolute;
     width: 600px;
-    height: 600px;
+    height: 80%;
     transform-origin: center center;
     transform: scale(0.75);
     top: 25%;
