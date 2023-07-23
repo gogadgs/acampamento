@@ -35,7 +35,7 @@ footer div.grama3{
     background-position: top, bottom;
     min-width:20%;
     left: 40%;
-    top: 82%;
+    top: 0;
     position: absolute;
     min-height: 190%;
     opacity: 0.1;
@@ -43,32 +43,34 @@ footer div.grama3{
       
 
 
-@media screen and (max-width:425px)  {
+@media screen and (max-width:320px)  {
+    .campfire{
+        transform: scale(0.25) !important;
+        -webkit-transform: scale(0.25) !important;
+        -moz-transform: scale(0.25) !important;
+        -ms-transform: scale(0.25) !important;
+        -o-transform: scale(0.25) !important;
+        top:34% !important;
+        position:absolute !important;
+}
     footer div.grama,div.grama2,div.grama3{
-        display: none;
+       
     }
 }
-@media screen and (min-width:425px) and (max-width:600px){
+@media screen and (min-width:325px) and (max-width:600px){
     footer{
         top: 79%;
         
     }
+    .campfire{
+        transform: scale(0.25) !important;
+        -webkit-transform: scale(0.25) !important;
+        -moz-transform: scale(0.25) !important;
+        -ms-transform: scale(0.25) !important;
+        -o-transform: scale(0.25) !important;
+        top:34% !important;
+        position:absolute !important;
+}
 
-    footer div.grama{
-        min-width: 15%;
-        min-height: 200%;
-       
-       
-     }
-     footer div.grama2{
-        min-width: 15%;
-        min-height: 200%;
-        
-     }
-
-     footer div.grama3{
-        min-width: 70%;
-        left: 15%;
-        top: 175%;
-     }
+   
 }
