@@ -11,9 +11,10 @@ footer div.grama{
     background-position: top, bottom;
     min-width: 40%;
     right: 0;
-    position: absolute;
-    min-height: 190%;
     opacity: 0.1;
+    position: absolute;
+    min-height: 210%;
+    top: 0;
       
 }
 footer div.grama2{
@@ -25,6 +26,7 @@ footer div.grama2{
     left: 0;
     position: absolute;
     min-height: 190%;
+    top: 0;
     opacity: 0.1;
       
 }
@@ -35,12 +37,41 @@ footer div.grama3{
     background-position: top, bottom;
     min-width:20%;
     left: 40%;
-    top: 0;
+    top: 82%;
     position: absolute;
-    min-height: 190%;
+    min-height: 205%;
     opacity: 0.1;
 }
-      
+@media screen and (min-width:600px) and (max-width:768px)  {
+    .campfire{
+        transform: scale(0.40) !important;
+        -webkit-transform: scale(0.40) !important;
+        -moz-transform: scale(0.40) !important;
+        -ms-transform: scale(0.40) !important;
+        -o-transform: scale(0.40) !important;
+        top:30% !important;
+        position:absolute !important;
+}
+    
+}
+@media screen and (min-width:325px) and (max-width:600px){
+    footer{
+        top: 79%;
+        
+    }
+    .campfire{
+        transform: scale(0.25) !important;
+        -webkit-transform: scale(0.25) !important;
+        -moz-transform: scale(0.25) !important;
+        -ms-transform: scale(0.25) !important;
+        -o-transform: scale(0.25) !important;
+        top:32% !important;
+        position:absolute !important;
+}
+
+   
+}
+
 
 
 @media screen and (max-width:320px)  {
@@ -68,7 +99,7 @@ footer div.grama3{
         -moz-transform: scale(0.25) !important;
         -ms-transform: scale(0.25) !important;
         -o-transform: scale(0.25) !important;
-        top:34% !important;
+        top:32% !important;
         position:absolute !important;
 }
 
