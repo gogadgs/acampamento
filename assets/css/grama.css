@@ -81,6 +81,12 @@ footer div.grama3{
         top:34% !important;
         position:absolute !important;
 }
+footer div.grama3{
+    position: absolute !important;
+    min-height: 140% !important;
+    top: 52%;
+}
+}
    
 }
 @media screen and (min-width:325px) and (max-width:600px){
