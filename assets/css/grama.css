@@ -78,17 +78,22 @@ footer div.grama3{
         -moz-transform: scale(0.25) !important;
         -ms-transform: scale(0.25) !important;
         -o-transform: scale(0.25) !important;
-        top:34% !important;
+        top:38% !important;
         position:absolute !important;
+}
+footer div.grama2{
+    position:absolute !important;
+    min-height: 210%;
 }
 footer div.grama3{
     position: absolute !important;
-    min-height: 140% !important;
+    min-height: 157% !important;
     top: 52%;
+    min-width: 64px;
 }
 }
    
-}
+
 @media screen and (min-width:325px) and (max-width:600px){
     footer{
         top: 79%;
@@ -118,6 +123,7 @@ footer div.grama2{
 }
 footer div.grama{
     position: absolute !important;
+    top:0;
     min-height: 228% !important;
     max-height: 228% !important;
 }
